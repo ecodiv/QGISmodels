@@ -463,7 +463,16 @@
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help" type="Map">
-    <Option value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Ubuntu Sans'; font-size:11pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:16pt; color:#3e8a33;&quot;>Description&lt;/span>&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt; color:#3e8a33;&quot;>&lt;br />&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>The function creates a X-Y scatter plot based on the values of two input raster layers. Instead of plotting all raster cell values, an user-defined random number of sample points is generated. This is done for the area where the two raster layers overlap. The values of the two raster layers at those point locations will be plotted. &lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:16pt; color:#3e8a33;&quot;>Repository&lt;/span>&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;a href=&quot;https://github.com/ecodiv/QGISmodels&quot;>&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;>https://github.com/ecodiv/QGISmodels&lt;/span>&lt;/a>&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&lt;/body>&lt;/html>" name="ALG_DESC" type="QString"/>
+    <Option value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Ubuntu Sans'; font-size:11pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Extracts raster values of two input raster layers for an user-defined of random point locations and plots them in an scatterplot. The random points are created within intersection of both raster layers.&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&lt;/body>&lt;/html>" name="ALG_DESC" type="QString"/>
+    <Option value="Paulo van Breugel&#xa;&lt;paulo at ecodiv dot earth" name="ALG_HELP_CREATOR" type="QString"/>
+    <Option value="" name="ALG_VERSION" type="QString"/>
+    <Option value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Ubuntu Sans'; font-size:11pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&lt;/body>&lt;/html>" name="EXAMPLES" type="QString"/>
+    <Option value="https://github.com/ecodiv/QGISmodels/tree/main/raster_scatterplot" name="HELP_URL" type="QString"/>
+    <Option value="The function creates a X-Y scatter plot based on the values of two input raster layers." name="SHORT_DESCRIPTION" type="QString"/>
+    <Option value="Number of sample points. These are used to extract the raster values which are subsequently plotted." name="number_of_sample_points" type="QString"/>
+    <Option value="A raster layer with values to be plotted on the X-axis of the scatterplot" name="raster_xaxis" type="QString"/>
+    <Option value="A raster layer with values to be plotted on the Y-axis of the scatterplot" name="raster_yaxis" type="QString"/>
+    <Option value="A html file with plotly scatterplot" name="scatterplot" type="QString"/>
   </Option>
   <Option value="Version2" name="internal_version" type="QString"/>
   <Option name="modelVariables"/>
@@ -524,9 +533,9 @@
     </Option>
   </Option>
   <Option name="parameterOrder" type="StringList">
-    <Option value="a_fixed_value_to_burn" type="QString"/>
-    <Option value="reference_layer" type="QString"/>
-    <Option value="vector_layer" type="QString"/>
+    <Option value="raster_xaxis" type="QString"/>
+    <Option value="raster_yaxis" type="QString"/>
+    <Option value="number_of_sample_points" type="QString"/>
   </Option>
   <Option name="parameters" type="Map">
     <Option name="number_of_sample_points" type="Map">
