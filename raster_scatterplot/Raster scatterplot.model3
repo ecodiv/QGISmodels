@@ -19,7 +19,7 @@
       <Option value="Intersection" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
       <Option value="670" name="component_pos_x" type="double"/>
-      <Option value="135" name="component_pos_y" type="double"/>
+      <Option value="285" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:intersection_1" name="id" type="QString"/>
@@ -77,7 +77,7 @@
       <Option value="native:polygonfromlayerextent" name="alg_id" type="QString"/>
       <Option value="" name="color" type="QString"/>
       <Option name="comment" type="Map">
-        <Option value="" name="color" type="QString"/>
+        <Option value="44,150,213,255,hsv:0.56197222222222221,0.79378957808804451,0.83416495002670332,1" name="color" type="QString"/>
         <Option value="Intermediate output: Extract the extens of the layer to be plotted on the x-axis as a vector layer." name="component_description" type="QString"/>
         <Option value="60" name="component_height" type="double"/>
         <Option value="668" name="component_pos_x" type="double"/>
@@ -89,7 +89,7 @@
       <Option value="Extent layer X" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
       <Option value="430" name="component_pos_x" type="double"/>
-      <Option value="165" name="component_pos_y" type="double"/>
+      <Option value="225" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:polygonfromlayerextent_1" name="id" type="QString"/>
@@ -129,7 +129,7 @@
       <Option value="Extent layer Y" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
       <Option value="430" name="component_pos_x" type="double"/>
-      <Option value="75" name="component_pos_y" type="double"/>
+      <Option value="315" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:polygonfromlayerextent_2" name="id" type="QString"/>
@@ -168,8 +168,8 @@
       </Option>
       <Option value="Random points in polygons" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
-      <Option value="670" name="component_pos_x" type="double"/>
-      <Option value="255" name="component_pos_y" type="double"/>
+      <Option value="430" name="component_pos_x" type="double"/>
+      <Option value="465" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:randompointsinpolygons_1" name="id" type="QString"/>
@@ -239,8 +239,8 @@
       </Option>
       <Option value="Sample raster values X" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
-      <Option value="885" name="component_pos_x" type="double"/>
-      <Option value="405" name="component_pos_y" type="double"/>
+      <Option value="795" name="component_pos_x" type="double"/>
+      <Option value="465" name="component_pos_y" type="double"/>
       <Option value="210" name="component_width" type="double"/>
       <Option name="dependencies" type="List">
         <Option type="Map">
@@ -291,8 +291,8 @@
       </Option>
       <Option value="Sample raster values Y" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
-      <Option value="670" name="component_pos_x" type="double"/>
-      <Option value="495" name="component_pos_y" type="double"/>
+      <Option value="850" name="component_pos_x" type="double"/>
+      <Option value="585" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies" type="List">
         <Option type="Map">
@@ -343,8 +343,8 @@
       </Option>
       <Option value="Vector layer scatterplot" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
-      <Option value="670" name="component_pos_x" type="double"/>
-      <Option value="615" name="component_pos_y" type="double"/>
+      <Option value="1090" name="component_pos_x" type="double"/>
+      <Option value="375" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies" type="List">
         <Option type="Map">
@@ -373,8 +373,8 @@
           </Option>
           <Option value="Scatterplot" name="component_description" type="QString"/>
           <Option value="30" name="component_height" type="double"/>
-          <Option value="820" name="component_pos_x" type="double"/>
-          <Option value="705" name="component_pos_y" type="double"/>
+          <Option value="1210" name="component_pos_x" type="double"/>
+          <Option value="465" name="component_pos_y" type="double"/>
           <Option value="200" name="component_width" type="double"/>
           <Option name="default_value" type="invalid"/>
           <Option value="true" name="mandatory" type="bool"/>
@@ -463,16 +463,17 @@
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help" type="Map">
-    <Option value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Ubuntu Sans'; font-size:11pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Extracts raster values of two input raster layers for an user-defined of random point locations and plots them in an scatterplot. The random points are created within intersection of both raster layers.&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&lt;/body>&lt;/html>" name="ALG_DESC" type="QString"/>
+    <Option name="ALG_CREATOR" type="invalid"/>
+    <Option value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Ubuntu Sans'; font-size:11pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Extracts raster values of two input raster layers for an user-defined of random point locations and plots them in an scatterplot. The random points are created within intersection of both raster layers.&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&lt;/body>&lt;/html>" name="ALG_DESC" type="QString"/>
     <Option value="Paulo van Breugel&#xa;&lt;paulo at ecodiv dot earth" name="ALG_HELP_CREATOR" type="QString"/>
-    <Option value="" name="ALG_VERSION" type="QString"/>
-    <Option value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Ubuntu Sans'; font-size:11pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&lt;/body>&lt;/html>" name="EXAMPLES" type="QString"/>
+    <Option name="ALG_VERSION" type="invalid"/>
+    <Option value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Ubuntu Sans'; font-size:11pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>See &lt;a href=&quot;https://github.com/ecodiv/QGISmodels/tree/main/raster_scatterplot&quot;>&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;>https://github.com/ecodiv/QGISmodels/tree/main/raster_scatterplot&lt;/span>&lt;/a>&lt;/p>&lt;/body>&lt;/html>" name="EXAMPLES" type="QString"/>
     <Option value="https://github.com/ecodiv/QGISmodels/tree/main/raster_scatterplot" name="HELP_URL" type="QString"/>
-    <Option value="The function creates a X-Y scatter plot based on the values of two input raster layers." name="SHORT_DESCRIPTION" type="QString"/>
+    <Option value="Use this model to quickly compare two raster layers by visualizing their values in a scatter plot. Because raster files can be very large, the function samples a user-defined number of random points within the overlapping area of both rasters and retrieves each raster’s values at those locations. It then displays these paired values as a scatter plot in an HTML file, making it easy to explore patterns and relationships between the two datasets." name="SHORT_DESCRIPTION" type="QString"/>
     <Option value="Number of sample points. These are used to extract the raster values which are subsequently plotted." name="number_of_sample_points" type="QString"/>
-    <Option value="A raster layer with values to be plotted on the X-axis of the scatterplot" name="raster_xaxis" type="QString"/>
+    <Option value="A raster layer with values to be plotted on the X-axis of the scatterplot." name="raster_xaxis" type="QString"/>
     <Option value="A raster layer with values to be plotted on the Y-axis of the scatterplot" name="raster_yaxis" type="QString"/>
-    <Option value="A html file with plotly scatterplot" name="scatterplot" type="QString"/>
+    <Option value="Specify the HTML file for the plot. One of:&#xa;Save to a Temporary File&#xa;Save to File…" name="scatterplot" type="QString"/>
   </Option>
   <Option value="Version2" name="internal_version" type="QString"/>
   <Option name="modelVariables"/>
@@ -499,7 +500,7 @@
       <Option name="defaultGui" type="invalid"/>
       <Option value="raster X-axis" name="description" type="QString"/>
       <Option value="0" name="flags" type="int"/>
-      <Option value="" name="help" type="QString"/>
+      <Option value="A raster layer with values to be plotted on the X-axis of the scatterplot." name="help" type="QString"/>
       <Option name="metadata"/>
       <Option value="raster_xaxis" name="name" type="QString"/>
       <Option value="raster" name="parameter_type" type="QString"/>
@@ -509,7 +510,7 @@
       <Option name="defaultGui" type="invalid"/>
       <Option value="raster Y-axis" name="description" type="QString"/>
       <Option value="0" name="flags" type="int"/>
-      <Option value="" name="help" type="QString"/>
+      <Option value="A raster layer with values to be plotted on the Y-axis of the scatterplot" name="help" type="QString"/>
       <Option name="metadata"/>
       <Option value="raster_yaxis" name="name" type="QString"/>
       <Option value="raster" name="parameter_type" type="QString"/>
@@ -541,7 +542,7 @@
     <Option name="number_of_sample_points" type="Map">
       <Option value="" name="color" type="QString"/>
       <Option name="comment" type="Map">
-        <Option value="" name="color" type="QString"/>
+        <Option value="84,181,81,255,hsv:0.32774999999999999,0.55257495994506756,0.70936140993362329,1" name="color" type="QString"/>
         <Option value="Input: the number of sample points.&#xa;Instead of plotting all raster cell values, a random number of sample points are generated. The values of the two raster layers at those point locations will be plotted." name="component_description" type="QString"/>
         <Option value="60" name="component_height" type="double"/>
         <Option value="296" name="component_pos_x" type="double"/>
