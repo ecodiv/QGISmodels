@@ -477,7 +477,7 @@
   </Option>
   <Option value="Version2" name="internal_version" type="QString"/>
   <Option name="modelVariables"/>
-  <Option value="" name="model_group" type="QString"/>
+  <Option value="SDM scripts" name="model_group" type="QString"/>
   <Option value="Raster scatterplot" name="model_name" type="QString"/>
   <Option value="" name="outputGroup" type="QString"/>
   <Option name="outputOrder"/>
@@ -488,7 +488,7 @@
       <Option name="defaultGui" type="invalid"/>
       <Option value="Number of sample points" name="description" type="QString"/>
       <Option value="0" name="flags" type="int"/>
-      <Option value="" name="help" type="QString"/>
+      <Option value="Number of sample points. These are used to extract the raster values which are subsequently plotted." name="help" type="QString"/>
       <Option value="1.7976931348623157e+308" name="max" type="double"/>
       <Option name="metadata"/>
       <Option value="1" name="min" type="double"/>
